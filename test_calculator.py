@@ -48,7 +48,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(square_root(25), 5)
         self.assertEqual(square_root(127.5), 127.5 ** 0.5)
 
-    def log_invalid_base(self):
+    def test_log_invalid_base(self):
         with self.assertRaises(ValueError):
             logarithm(0, 100)
 
