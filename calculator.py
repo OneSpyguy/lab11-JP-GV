@@ -33,4 +33,5 @@ def exponent(a, b):
     return a ** b
 
 
-print(logarithm(5, 25))
+print(logarithm(5, 25),)
+print (exponent(5, 2))
